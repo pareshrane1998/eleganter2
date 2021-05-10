@@ -154,316 +154,753 @@ sub { bottom: -.25em; }
   font-weight: bold;
 }
 
-<!-- container start -->
-    <div class="container">
-        <!-- header start -->
-        <header>
-            <!-- navbar start -->
-            <div class="wrapper">
-                <nav class="navbar">
-                    <h1>eleganter</h1>
-                    <ul class="nav-links" id="myTopnav">
-                        <li><a href="#FIXME" title="Home">home</a></li>
-                        <li><a href="#FIXME" title="Products">products</a></li>
-                        <li><a href="#FIXME" title="Services" class="icon down">services</a></li>
-                        <li><a href="#FIXME" title="About">about</a></li>
-                        <li><a href="#FIXME" title="Gallery">gallery</a></li>
-                        <li><a href="#FIXME" title="Contact">contact</a></li>
-                        <li><a href="#FIXME" title="toggle" class="icon bars icons"></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!-- header ends -->
-        <!-- main section start -->
-        <main>
-            <!-- banner section start -->
-            <section class="banner">
-                <ul class="slides">
-                    <li>
-                        <h2>eleganter <span class="lower">is the</span> most elegant <span class="upper">html5</span> template</h2>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
-                            nulla facilisis. Iriure dolor in hendrerit duis autem vel eum in vulputate velit esse molestie consequat.
-                        </p>
-                        <a href="#FIXME" title="get started now" class="btn">get started now</a>
-                    </li>
-                    <li>
-                        <h2>eleganter <span class="lower">is the</span> most elegant <span class="upper">html5</span> template</h2>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
-                            nulla facilisis. Iriure dolor in hendrerit duis autem vel eum in vulputate velit esse molestie consequat.
-                        </p>
-                        <a href="#FIXME" title="get started now" class="btn">get started now</a>
-                    </li>
-                    <li>
-                        <h2>eleganter <span class="lower">is the</span> most elegant <span class="upper">html5</span> template</h2>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
-                            nulla facilisis. Iriure dolor in hendrerit duis autem vel eum in vulputate velit esse molestie consequat.
-                        </p>
-                        <a href="#FIXME" title="get started now" class="btn">get started now</a>
-                    </li>
-                </ul>
-            </section>
-            <!-- banner section ends -->
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-            <!-- cards section start -->
-            <section class="cards">
-                <div class="wrapper">                                                                                                                                                                   
-                    <ul class="flex-card"> 
-                        <li class="card">
-                            <a href="#FIXME" title="Unlimited Color Varients" class="icon shield"></a>
-                            <h2>unlimited color varients</h2>
-                            <p>
-                                Duis autem vel eum iriure dolor in
-                                hendrerit in vulputate velit esse molestie
-                                consequat, vel illum dolore eu feugiat nulla
-                                facilisis
-                            </p>
-                            <a href="#FIXME" title="get more info">get more info</a>
-                        </li>
-                        <li class="card">
-                            <a href="#FIXME" title="Unlimited Color Varients" class="icon umb"></a>
-                            <h2>parallax background</h2>
-                            <p>
-                                Duis autem vel eum iriure dolor in
-                                hendrerit in vulputate velit esse molestie
-                                consequat, vel illum dolore eu feugiat nulla
-                                facilisis
-                            </p>
-                            <a href="#FIXME" title="get more info">get more info</a>
-                        </li>
-                        <li class="card">
-                            <a href="#FIXME" title="Unlimited Color Varients" class="icon home"></a>
-                            <h2>clean modern code</h2>
-                            <p>
-                                Duis autem vel eum iriure dolor in
-                                hendrerit in vulputate velit esse molestie
-                                consequat, vel illum dolore eu feugiat nulla
-                                facilisis
-                            </p>
-                            <a href="#FIXME" title="get more info">get more info</a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <!-- cards section ends -->
+*::after , *::before { box-sizing: border-box; }
+li { list-style: none;}
+a {text-decoration: none;}
 
-            <!-- about us section start -->
-            <section class="about">
-                <div class="wrapper">
-                    <h2>about us</h2>
-                    <ul class="about-flex">  
-                        <li><p>we are web design heroes</p></li>
-                        <li>
-                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem
-                                consuetudium lectorum. Mirum est notare quam littera gothica. Dolor
-                                in hendrerit in vulputate velit esse molestie consequat. Mirum est
-                                notare quam littera gothica.
-                            </p>
-                        </li>
-                        <li>
-                            <p>Mirum est notare quam littera gothica. Dolor in hendrerit in vulputate
-                                velit esse molestie consequat. Claritas est etiam processus dynamicus,
-                                qui sequitur mutationem consuetudium lectorum. Dolor in hendrerit in
-                                vulputate velit esse molestie consequat.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <!-- about us section ends -->
+img {
+  max-width: 100%;
+  display: block;
+}
 
-            <!-- features section start -->
-           <section class="features">
-               <div class="wrapper">
-                   <figure>
-                       <img src="./images/feature.PNG" alt="man on laptop">
-                   </figure>
-                   <div class="features-list">
-                       <div class="icon drop">
-                           <h3>unlimited color varients</h3>
-                           <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-                            Vel illum dolore eu feugiat nulla facilisis.
-                            </p>
-                       </div>
-                       <div class="icon mobile">
-                           <h3>responsive layout</h3>
-                           <p>
-                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit 
-                            esse molestie consequat.
-                           </p>
-                       </div>
-                       <div class="icon heart">
-                           <h3>clean minimilastic design</h3>
-                           <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-                            Vel illum dolore eu feugiat nulla facilisis.</p>
-                       </div>
-                       <div class="icon graph">
-                           <h3>Tons of Animated Elements</h3>
-                           <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                       </div>
-                       <div class="icon globe">
-                           <h3>and many more...</h3>
-                           <p>Nam liber tempor cum soluta nobis eleifend. Duis autem vel eum iriure dolor
-                            in hendrerit in vulputate velit esse molestie consequat.</p>
-                       </div>
-                   </div>
-               </div>
+/* navbar styling start */
 
-           </section>
-            <!-- features section ends -->
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 16px;
+  padding-left: 3.6%;
+  padding-right: 2.9%;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between; 
+}
 
-            <!-- stats section start -->
-            <section class="stats">
-                <div class="wrapper">
-                    <h2>our stats</h2>
-                    <ul class="flex-stats">
-                        <li>
-                            <span>1500</span>
-                            <p>Eodem modo typi</p>
-                        </li>
-                        <li>
-                            <span>95%</span>
-                            <p>Duis autem</p>
-                        </li>
-                        <li>
-                            <span>287</span>
-                            <p>Mirum est notare</p>
-                        </li>
-                        <li>
-                            <span>7 milion</span>
-                            <p>Nam liber tempor</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <!-- stats section ends -->
+.navbar h1 {
+  color: #494949;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
 
-            <!-- work section start -->
-            <section class="work">
-                <h2>our work</h2>
-                <ul class="flex-btn">
-                    <li><a href="#FIXME" title="Web Design" class="btn-g current">web design</a></li>
-                    <li><a href="#FIXME" title="Graphic Design" class="btn-g">graphic design</a></li>
-                    <li><a href="#FIXME" title="Campaigns" class="btn-g">campaigns</a></li>
-                </ul>
-                <ul class="gallery">
-                    <li>
-                        <img src="./images/gallery.PNG" alt="1">
-                    </li>
-                    <li>
-                        <img src="./images/gallery.PNG" alt="2">
-                    </li>
-                    <li>
-                        <img src="./images/gallery.PNG" alt="3">
-                    </li>
-                    <li>
-                        <img src="./images/gallery.PNG" alt="4">
-                    </li>
-                    <li>
-                        <img src="./images/gallery.PNG" alt="5">
-                    </li>
-                    <li>
-                        <img src="./images/gallery.PNG" alt="6">
-                    </li>
-                    <li>
-                        <img src="./images/gallery.PNG" alt="7">
-                    </li>
-                    <li>
-                        <img src="./images/gallery.PNG" alt="8">
-                    </li>
+.nav-links { 
+  display: flex; 
+  align-items: center; 
+  text-align: center;
+}
 
-                </ul>
+.nav-links a {
+  padding-left: 35px;
+  color: #979797;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  text-transform: capitalize;  
+}
 
-            </section>
-            <!-- work section ends -->
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
 
-            <!-- testimonials section start -->
-            <section class="test">
-                <div class="wrapper">
-                    <ul class="test-slides">
-                        <li>
-                            <h2>testimonials</h2>
-                            <figure>
-                                <img src="./images/gallery.PNG" alt="">
-                            </figure>
-                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-                                consequat, vel illum dolor eu feugiat nulla facilisis
-                            </p>
-                            <span> mark stoner / web developer / company</span>
-                        </li>
-                        <li>
-                            <h2>testimonials</h2>
-                            <figure>
-                                <img src="./images/gallery.PNG" alt="">
-                            </figure>
-                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-                                consequat, vel illum dolor eu feugiat nulla facilisis
-                            </p>
-                            <span> mark stoner / web developer / company</span>
-                        </li>
-                        <li>
-                            <h2>testimonials</h2>
-                            <figure>
-                                <img src="./images/gallery.PNG" alt="">
-                            </figure>
-                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-                                consequat, vel illum dolor eu feugiat nulla facilisis
-                            </p>
-                            <span> mark stoner / web developer / company</span>
-                        </li>
-                    </ul>
-                    <ul class="slide-btn">
-                        <li><a href="#FIXME" title="next" class="icon next"></a></li>
-                        <li><a href="#FIXME" title="next" class="icon next"></a></li>
-                        <li><a href="#FIXME" title="next" class="icon next"></a></li>
-                    </ul>
-                </div> 
-            </section>
-            <!-- testimonial section ends -->
+.bars::before {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f0c9";
+}
 
-        </main>
-        <!-- main section ends -->
+.down::after {
+  position: relative; 
+  top: 1px; 
+  left: 7px;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f107";
+}
 
-        <!-- footer section start -->
-        <footer>
-            <div class="contact">
-                <p class="contact-pg">contact us: 0800 787787</p>
-            </div>
-            <div class="footer-content">
-                <figure>
-                    <img src="./images/map.PNG" alt="map">
-                </figure>
-                <div class="contact-details">
-                    <div class="box">
-                        <div class="icon location"></div>
-                        <div class="text">
-                            <h3>company address</h3>
-                            <p class="capital">responsive street 7</p>
-                            <p class="capital">london/united kingdom/europe</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon mail"></div>
-                        <div class="text">
-                            <h3>E-mail</h3>
-                            <p>contact@sampledomain.com</p>
-                            <p>office@sampledomain.com</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon call"></div>
-                        <div class="text">
-                            <h3>phone number</h3>
-                            <p>0800 4521 800 50</p>
-                            <p>0450 5896 625 16</p>
-                            <p>0798 6546 465 15</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>Copyright 2019,Vision Design - graphic zoo</p>
-            </div>
-        </footer>
-        <!-- footer ends -->
-    </div>
+.icons { display: none; }
+
+/* responsive style for navbar */
+
+@media screen and (max-width: 768px) {
+  .navbar ul li:not(:last-child) { display: none;}
+  .navbar a.icons {
+    display: block;
+  }
+}
+
+
+/* banner section start */
+
+.slides li:not(:first-child) { display: none; }
+.upper { text-transform: uppercase;}
+.lower { text-transform: lowercase;}
+
+.slides h2 { 
+  max-width: 50%;
+  margin:0 auto;
+  color: #fff;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+.slides p {
+  max-width: 42%;
+  margin:0 auto;
+  padding-top: 14px;
+  padding-bottom: 30px;
+  color: #d3d2d4;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.5;   
+}
+
+.slides li { 
+  padding-top: 11%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner { background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://via.placeholder.com/150") no-repeat center center/cover;}
+
+.btn { 
+  padding: 8px 61px;
+  margin-bottom: 15.3%;
+  color: #f7f7f7;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  border: 1px solid #f7f7f7;
+  text-transform: capitalize;
+  
+}
+
+/* responsive banner */
+@media screen and (max-width: 768px) { .slides h2 { font-size: 2rem;} }
+
+/* cards section start */
+
+.cards .wrapper {
+  padding-left: 20.9%;
+  padding-right: 20.9%;
+  padding-top: 29px;
+}
+
+.shield::before, .umb::before, .home::before {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f3ed";
+  color: #062633;
+}
+
+.umb::before { content: "\f0e9";}
+.home::before { content: "\f015";}
+
+.flex-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+
+.flex-card > * { flex-basis: 100%; }
+
+.card { border: 1.5px solid #f4f2f1; }
+
+.card h2 {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #062633;
+}
+
+.card p {
+  max-width: 78%;
+  padding-top: 11px;
+  padding-bottom: 21px;
+  margin:0 auto;
+  font-family: sans-serif;
+  font-size: 0.65rem;
+  text-align: center;
+  line-height: 1.6;
+  color: #adadb5;
+}
+
+.card a:first-child {
+  display: inline-block;
+  padding-top: 29px;
+  padding-bottom: 19px;
+  color: #222;
+  font-size: 33px;
+}
+
+.card a:last-child {
+  display: inline-block;
+  color: #0e344c;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 0.5rem;
+  padding: 8px 13px;
+  border: 1px solid #0e344c;
+  margin-bottom: 28px;
+}
+
+.cards { padding-bottom: 7.2%; }
+
+/* cards responsive design */
+
+@media screen and (max-width: 1130px) {
+  .card h2 {
+      max-width: 70%;
+      margin:0 auto;
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+  .flex-card {
+      flex-direction: column;
+  }
+
+}
+
+/* about us section start */
+
+.about .wrapper {
+  padding-left: 20.9%;
+  padding-right: 20.9%;
+  
+}
+
+.about h2 {
+  padding-bottom: 18px;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  font-size: 2.6rem;
+  font-weight: 300;
+  position: relative;
+}
+
+.about h2::after {
+  content: "";
+  display: block;
+  width: 5.5%;
+  height: 2px;
+  background: #d7492a;
+  position: absolute;
+  left: 47%;
+  bottom: 0;
+}
+
+
+.about-flex li:first-child p {
+  font-size: 1.45rem;
+  max-width: 90%;
+  text-transform: capitalize;
+  line-height: 0.95;
+  color: #d83311;
+}
+
+.about-flex {
+  display: flex;
+  padding-top: 25px;
+  gap: 0.5rem;
+}
+
+.about-flex li:first-child { width: 55%; }
+
+.about-flex li:nth-child(2) p {
+  position: relative;
+  left: -6px;
+}
+
+
+
+
+.about-flex li:nth-child(2) p ,.about-flex li:nth-child(3) p {
+  font-size: 0.65rem;
+  font-family: sans-serif;
+  line-height: 1.8;
+  color: #0e344c;
+  font-weight: 300;
+
+}
+
+@media screen and (max-width: 1025px) {
+  .about-flex {
+      flex-direction: column;
+     
+  }
+  .about-flex li:first-child p {
+      max-width: 100%;
+     
+  }
+  .about-flex li:nth-child(2) p {
+      left: 0;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .about-flex li:first-child p {
+      font-size: 1.2rem;
+  }
+
+}
+
+/* features section start */
+
+.features { padding-top: 5.2%;}
+
+.features .wrapper {
+  display: flex;
+}
+
+.features .wrapper > * {
+  flex-basis: 100%;
+}
+
+.features h3 {
+  text-transform: capitalize;
+  color: #0e344c;
+}
+
+.features p {
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  max-width: 70%;
+  line-height: 1.6;
+  color: #0e344c;
+}
+
+.features-list div:last-child p { max-width: 60%;}
+
+.drop::before , .mobile::before, .heart::before, .graph::before, .globe::before , .next::before,
+.location::before, .mail::before, .call::before {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f043";
+  color: #0e344c;
+}
+
+.features .wrapper img {
+  height: 511px;
+  width: 674px;
+}
+
+
+
+.next::before { 
+  content: "\f111"; 
+  font-size: 10px; 
+  color: #999;
+}
+
+.drop::before { 
+  position: absolute; 
+  left: -6%; 
+  font-size: 2rem;
+}
+
+.mobile::before { 
+  content: "\f3cd"; 
+  position: absolute; 
+  left: -6%; 
+  font-size: 2rem;
+}
+
+.heart::before { 
+  content: "\f004"; 
+  position: absolute; 
+  left: -7%; 
+  font-size: 2rem;
+}
+
+.graph::before { 
+  content: "\f080"; 
+  position: absolute; 
+  left: -7%; 
+  font-size: 2rem;
+}
+
+.globe::before { 
+  content: "\f57d"; 
+  position: absolute; 
+  left: -7%; 
+  font-size: 2rem;
+}
+
+.features-list { 
+  margin-left: 5.7%; 
+  position: relative; 
+  padding-top: 30px;
+}
+
+.features-list div { padding-bottom: 20px;}
+
+@media screen and (max-width: 1140px) {
+  .features-list div {
+      padding-left: 4px;
+  }
+
+}
+
+@media screen and (max-width: 995px) {
+  .features .wrapper {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  /* .features-list {
+      left: 10%;
+  } */
+
+}
+
+@media screen and (max-width: 768px) {
+  .drop::before , .mobile::before, .heart::before, .graph::before, .globe::before {
+      padding-left: 4%;
+      /* left: 2%; */
+  }
+  .features-list {
+      padding-left: 4%;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .features-list div {
+      padding-left: 20px;
+  }
+}
+
+/* stats section start */
+
+.stats .wrapper {
+  padding-left: 20.9%;
+  padding-right: 20.9%;
+  padding-top: 5.2%; 
+}
+
+.stats h2 {
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #0e344c;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.stats h2::after {
+  content: "";
+  display: block;
+  width: 6%;
+  height: 2px;
+  background: #d7492a;
+  position: absolute;
+  left: 47%;
+  bottom: 0;
+}
+
+.flex-stats {
+  padding-top: 6.5%;
+  display: flex;
+}
+
+.flex-stats > * {
+  flex-basis: 100%;
+}
+
+.flex-stats span {
+  font-size: 2.2rem;
+  color: #0e344c;
+}
+
+.flex-stats p {
+  font-size: 1rem;
+  color: #0e344c;
+}
+
+
+@media screen and (max-width: 995px) {
+  .flex-stats  {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 2rem;
+  }
+}
+
+/* our work section start */
+
+.work { padding-top: 13.8%;}
+
+.work h2 {
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #0e344c;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.work h2::after {
+  content: "";
+  display: block;
+  width: 4%;
+  height: 2px;
+  background: #d7492a;
+  position: absolute;
+  left: 48%;
+  bottom: 0;
+}
+
+.btn-g {
+  color: #333;
+  padding: 10px 15px;
+  display: inline-block;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-size: 0.7rem;
+}
+
+.flex-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.current {
+  color: white;
+  background: #d22c20;
+
+}
+
+.gallery {
+  padding-top: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* testimonials section start */
+
+.test-slides li:not(:first-child) {
+  display: none;
+}
+
+.test img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.test-slides li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.test {
+  padding-top: 5.5%;
+}
+
+.test h2 {
+  text-transform: capitalize;
+  font-size: 2.4rem;
+  font-weight: 300;
+  padding-bottom: 16px;
+  color: #0e344c;
+  position: relative;
+}
+
+.test h2::after {
+  content: "";
+  display: block;
+  width: 23%;
+  height: 2px;
+  background: #d7492a;
+  position: absolute;
+  left: 40%;
+  bottom: 0;
+}
+
+
+.test p {
+  max-width: 35%;
+  line-height: 1.2;
+  padding-bottom: 11px;
+  padding-top: 14px;
+  color: #0e344c
+}
+
+.test span {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  color: #0e344c;
+  padding-bottom: 15px;
+}
+
+.test img { margin-top: 22px;}
+
+.slide-btn { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3px;
+}
+
+
+/* footer section start */
+
+footer .contact-pg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  background: #c81810;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-top: 5%;
+}
+
+/* footer content */
+
+.footer-content { display: flex;  color:#fff}
+
+.contact-details { background: #062633;}
+
+.footer-content > * { flex-basis: 100%; }
+
+.footer-content h3 {
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: #e6fef9;
+}
+
+.capital {
+  text-transform: capitalize;
+}
+
+.footer-content p { font-size: 0.7rem; font-family: sans-serif; line-height: 1.6; color: #33535f;}
+
+.contact-details {
+  padding-top: 25px;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.location::before { 
+  content: "\f3c5"; 
+  color: #c2181a; 
+  position: absolute; 
+  font-size: 2rem; 
+  left:5%;
+}
+
+.mail::before { 
+  content: "\f0e0"; 
+  color: #c2181a; 
+  position: absolute; 
+  font-size: 2rem; 
+  left:5%;
+}
+
+.call::before { 
+  content: "\f879";
+  color: #c2181a;
+  position: absolute; 
+  font-size: 2rem; 
+  left:5%;
+}
+
+.box {
+  position: relative;
+  padding-left: 12.2%;
+  padding-bottom: 22px;
+}
+
+@media screen and (max-width: 1100px) {
+  .box {
+      padding-left: 13%;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .footer-content {
+      flex-direction: column;
+  }
+
+  footer img {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .box {
+      padding-left: 14%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .box {
+      padding-left: 15%;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .box {
+      padding-left: 17%;
+  }
+
+}
+
+.copyright { 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #062633;;
+}
+
+.copyright p {
+  font-size: 0.7rem;
+  font-family: sans-serif;
+  color: #33535f;
+}
+
+.contact-details::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #33535f;
+  position: absolute;
+  bottom: 0;
+}
